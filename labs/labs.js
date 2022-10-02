@@ -4,7 +4,7 @@ var ctx = myChart.getContext("2d");
 
 var x = ["Strawberry", "Peach", "Banana", "Pear", "Grape"];
 var y = [15, 10, 25, 10, 20];
-var barColors = ["red", "orange","yellow","green","purple"];
+var barColors = ["red", "orange","yellow","lightgreen","purple"];
 
 
 new Chart("myChart", {
@@ -31,7 +31,7 @@ new Chart("myChart", {
     },
     title: {
       display: true,
-      text: "Sales of fruit"
+      text: "Quantity in sales for the fruit"
     }
   }
 });

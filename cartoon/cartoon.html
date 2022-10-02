@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Cartoon </title>
-  </head>
-  <body>
-    <main>
-        <h1> Kristy's Cartoon.</h1>
-        <canvas id="myCanvas" width=1000" height="600" style="border:1px solid"></canvas>
 
-         <a href="../index.html"> Return Home </a> 
-    </main>
-	<script src="cartoon.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Cartoon </title>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightpink;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: white;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+    </style>
+
+
+
+
+</head>
+
+<body>
+  <main>
+    <ul>
+      <li><a href="../index.html"> Home </a> </li>
+      <li> <a href="cartoon.html"> Cartoon </a></li>
+      <li> <a href="../labs/labs.html"> Labs </a></li>
+    </ul>
+
+
+    <h1> Kristy's Cartoon.</h1>
+    <canvas id="myCanvas" width=1000" height="600" style="border:1px solid"></canvas>
+  </main>
+  <script src="cartoon.js"></script>
+</body>
+
 </html>
