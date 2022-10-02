@@ -32,9 +32,41 @@ function drawCloud(x,y) { //cloud fix this
     ctx.fillStyle = "white";
     ctx.fill()
 }
-drawCloud(50,115);
-drawCloud(350,135);
-drawCloud(650,135);
+
+
+function drawCloud(x,y) {
+    for (let i = 0; i < 3; i++) {
+        ctx.beginPath();
+        ctx.arc(x+i*35, y, 25, 0, Math.PI * 2, true);
+        ctx.fillStyle = "white";
+        ctx.fill();
+    }
+    for (let i = 0; i < 3; i++) {
+        ctx.beginPath();
+        ctx.arc(x+i*35, y, 25, 0, Math.PI * 2, true);
+        ctx.fillStyle = "white";
+        ctx.fill();
+    }
+    for (let i = 0; i < 3; i++) {
+        ctx.beginPath();
+        ctx.arc(x+i*35, y, 25, 0, Math.PI * 2, true);
+        ctx.fillStyle = "white";
+        ctx.fill();
+    }
+}
+
+drawCloud(50,50);
+drawCloud(200,100);
+drawCloud(350,50);
+drawCloud(500,100);
+drawCloud(650,50);
+drawCloud(800,100);
+//drawCloud(850,50);
+
+
+
+
+
 
 //ground color 
 function drawGrass(x,y,color){ //creates rectangle
@@ -145,8 +177,8 @@ function drawTree(x, y) {
 
 
 function writeText(){
-    ctx.font="20px Roboto";
-    ctx.fillText("Welcome to my neighborhood!",100,350);
+    ctx.font="35px Arial";
+    ctx.fillText("Welcome to the neighborhood!",60,250);
    
 }
 writeText();
