@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Bungee Inline' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Form </title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main>
+      <ul>
+        <li><a href="../index.html"> Home </a> </li>
+            <li> <a href="../cartoon/cartoon.html"> Cartoon </a></li>
+            <li> <a href="../labs/labs.html"> Labs </a></li>
+            <li>  <a href="../form/form.html"> Form </a></li>
+            <li>  <a href="../animation/animation.html"> Animation </a></li>
+      </ul>
+        <form>
+                <br>
+            <label> Please enter your full name: </label>
+            <input type="text" id="fullname" name="fullname">  
+            
+            <br>
+            <br>
+            <label> Choose a color for the background:   <input type="color" id="clr"> </label>
+            <br>
+            <br>
+            <label> Choose a color for the text:   <input type="color" id="textColor"></label>
+       
+
+        <div>
+            <br>
+            <p> Change the font for the sentence below: </p>
+                <p> Hello Everyone </p>
+                <input type="radio" id="font1" name="font" value="brushscript" />
+                <label for="font1"> Brush Script MT </label>
+                <br>
+
+                <input type="radio" id="font2" name="font" value="timesnewroman" />
+                <label for="font2"> Times New Roman </label>
+                    <br>
+                <input type="radio" id="font3" name="font" value="bungeeinline" />
+                <label for="font3"> Bungee Inline</label>
+            
+              </div>
+              <br>
+      
+              <button type="reset" onclick="document.location.reload()"> Reset Page </button>
+
+
+
+            </form>
+
+
+<!-- slider to set size of text  <input type="range" min="12" max="42" id="slider" /> -->
+<!-- 3 radio buttons (get it to change font) -->
+<!-- fix reset buttons -->
+  
+
+    </main>
+   <script src="form.js"> </script>
+  </body>
+</html>
