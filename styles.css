@@ -25,3 +25,58 @@ ul {
   .active {
     background-color: #04AA6D;
   }
+  
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#sprite-image {
+  height: 365px;
+  width: 150px;
+  background: url("https://thumbs.dreamstime.com/b/sprite-cartoon-character-cat-set-different-poses-vector-looped-animation-rotation-seal-cup-game-kitty-wizard-141453501.jpg")
+    0px 0px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.sponge{
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+.voicek{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
+.frames {
+  background-color: pink;
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  text-decoration: none;
+}
